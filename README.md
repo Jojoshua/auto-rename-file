@@ -7,7 +7,9 @@
 
 This extension is intended to boost productivity when you have to type longish file extensions.
 
-My primary use case was using this to reduce time and misspelling in creating .svelte files for [SVELTE](https://svelte.dev/)
+My primary use case was using this to reduce time and misspelling in creating **.svelte** files for [SVELTE](https://svelte.dev/)
+
+<img src="animation.gif">
 
 ## Extension Configuration
 
@@ -21,10 +23,16 @@ Add entry into your VSCode settings.json file and configure like the example bel
         "to": ".svelte"
       },
       {
-        "from": ".svts",
+        "from": ".svt",
         "to": ".svelte",
          "insertText": "<script lang='ts'>\n\n</script>"
       }
     ]
   }
 ```
+
+## Donation
+
+If this software helped you, donate a cup of coffee :)
+
+[![Donate](https://img.shields.io/badge/donate-Paypal-fd8200.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEWVQRNQ7AEVW)
